@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Cliff",
+        "surname": "Booth",
+        "age": "60"
+    },
+    {
+        "id": 3,
+        "name": "Salu",
+        "surname": "Llobeta",
+        "age": 16
+    },
+    {
+        "id": 2,
+        "name": "Eli",
+        "surname": "Zygmunt",
+        "age": "20"
+    },
+    {
+        "id": 6,
+        "name": "pili",
+        "surname": "herrera",
+        "age": 20
+    },
+    {
+        "id": 7,
+        "name": "Chunchi",
+        "surname": "Ferrari",
+        "age": 20
+    },
+    {
+        "id": 8,
+        "name": "Rick",
+        "surname": "Dalton",
+        "age": " 45"
+    },
+    {
+        "id": 9,
+        "name": "Gabriela",
+        "surname": "Rodriguez Marat",
+        "age": 51
+    }
+]

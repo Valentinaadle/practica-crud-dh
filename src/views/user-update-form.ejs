@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <h1 class="title">
+            Actualizar el usuario <%= usuario.name %> :
+          </h1>
+          <div class="form-container">
+              <form action="/users/edit/<%= usuario.id %>?_method=PUT "  method="POST">
+                
+                <div class="field-wrap">
+                  <label for="name">Nombre:</label>
+                  <input type="text" name="name" id="name" value="<%= usuario.name %> ">
+                </div>
+                
+                <div class="field-wrap">
+                  <label for="price">Apellido:</label>
+                  <input type="text" name="surname" id="surname" value="<%= usuario.surname %> ">
+                </div>
+
+                <div class="field-wrap">
+                    <label for="price">Edad:</label>
+                    <input type="text" name="age" id="age" value="<%= usuario.age %> ">
+                </div>
+            
+                
+                
+                
+                <div class="field-wrap">
+                    <button type="submit">
+                    actualizar
+                    </button>
+                </div>
+    </body>
+</html>

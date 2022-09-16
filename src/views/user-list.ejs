@@ -1,0 +1,32 @@
+<h1>Lista de usuarios:</h1>
+  
+<section class="menu-wrap">
+  <% products.forEach(function (usuario) { %>
+
+      <article>
+        
+        <p>informacion del usuario:</p>
+        <ul>
+          <li>
+              Nombre: <%= usuario.name  %> 
+          </li>
+          <li>
+              Apellido: <%= usuario.surname  %> 
+          </li>
+          <li>
+              Edad:  <%= usuario.age  %> 
+          </li>
+        </ul>
+
+        <form action="/users/edit/<%= usuario.id %>" method='GET'>
+          <button>Editar</button>
+        </form>
+
+      </article>
+  <%  }) %>
+
+  <form action="/users/create" method="GET">
+    <button>Agregar otro usuario</button>
+  </form>
+</section>
+</div>

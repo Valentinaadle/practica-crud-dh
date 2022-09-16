@@ -29,6 +29,7 @@
       <h1>Menu del chef:</h1>
   
       <section class="menu-wrap">
+        <% products.forEach(function (plato) { %>
 
             <article>
               <div class="img-container">
@@ -37,17 +38,17 @@
               <p>informacion del plato:</p>
               <ul>
                 <li>
-                    Nombre:   
+                    Nombre: <%= plato.name  %> 
                 </li>
                 <li>
-                    Descripcion: 
+                    Descripcion: <%= plato.description  %> 
                 </li>
                 <li>
-                    Precio:  
+                    Precio:  <%= plato.price  %> 
                 </li>
               </ul>
             </article>
-            
+        <%  }) %>
       </section>
     </div>
     
